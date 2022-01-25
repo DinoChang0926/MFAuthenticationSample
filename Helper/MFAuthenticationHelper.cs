@@ -4,6 +4,7 @@ namespace MFAuthenticationSample.Helper
 {
     public class MFAuthenticationHelper
     {
+        //需安裝套件Otp.Net
         public string GenQRCodeUrl(string Secret,string Lable="Dino",string Issuer= "TOTP測試")
         {
             return $"otpauth://totp/{Lable}?issuer={Uri.EscapeDataString(Issuer)}&secret={Secret}";

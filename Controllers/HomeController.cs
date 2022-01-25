@@ -1,15 +1,7 @@
 ﻿using MFAuthenticationSample.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using ZXing.QrCode;
-using ZXing.Common;
-using ZXing;
-using System.Drawing;
-using System.Drawing.Imaging;
-using SkiaSharp;
-using SkiaSharp.QrCode;
 using MFAuthenticationSample.Helper;
-using OtpNet;
 
 namespace MFAuthenticationSample.Controllers
 {
