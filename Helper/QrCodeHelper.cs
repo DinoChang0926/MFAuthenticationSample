@@ -5,7 +5,7 @@ namespace MFAuthenticationSample.Helper
 {    
     public class QrCodeHelper
     {
-        //由於.net 6 Img會不是用於非Windows平台故使用 SkiaSharp 來處理繪圖功能
+        //由於.net 6 Img會出現不適用於非Windows平台故使用 SkiaSharp 來處理繪圖功能
         //搭配套件 SkiaSharp、SkiaSharp.QrCode
         public string CreateQrCode(string message, int width = 246, int height = 246)
         {       
