@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <form action="Home/VaildCode">
+        <div>
+            <p>@ViewBag.Result</p>
+            <label>
+                請輸入驗證碼
+                <input name="Code" type="text">
+                <input hidden="hidden" name="Secret" type="text" value='@ViewBag.Sercret'>
+            </label>
+            <button type="submit">送出</button>
+        </div>       
+    </form>
+    <img alt="" src='@ViewBag.QrCode' />
+
+</div>
+
+
+

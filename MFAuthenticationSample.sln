@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFAuthenticationSample", "MFAuthenticationSample.csproj", "{6DED1440-3BC7-4FA6-8B4E-5EFC122AC9FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DED1440-3BC7-4FA6-8B4E-5EFC122AC9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DED1440-3BC7-4FA6-8B4E-5EFC122AC9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DED1440-3BC7-4FA6-8B4E-5EFC122AC9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DED1440-3BC7-4FA6-8B4E-5EFC122AC9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC732103-B6C6-4129-958D-CDC33006BFBA}
+	EndGlobalSection
+EndGlobal
