@@ -9,7 +9,7 @@ namespace MFAuthenticationSample.Helper
         {
             return $"otpauth://totp/{Lable}?issuer={Uri.EscapeDataString(Issuer)}&secret={Secret}";
         }
-        public (bool,string) ValidateTotp(string totp,string Secret = null, Totp totpInstance = null)
+        public (bool isValid,string info) ValidateTotp(string totp,string Secret = null, Totp totpInstance = null)
         {
             try
             {
