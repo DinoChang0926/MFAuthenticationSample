@@ -44,11 +44,11 @@ namespace MFAuthenticationSample.Controllers
         public IActionResult VaildCode(string Code,string Secret)
         {
             var Result = _MFAHelper.ValidateTotp(Code,Secret);
-            if(Result.Item1) //驗證通過
+            if(Result.isValid) //驗證通過
             {
             }
 
-            return RedirectToAction("Index", new { Result = Result.Item2 });
+            return RedirectToAction("Index", new { Result = Result.info });
         }
 
 
